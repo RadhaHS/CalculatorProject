@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "line": 7,
+  "line": 11,
   "name": "Addition of two number completed correctly",
   "description": "",
   "id": "calculator-functional-test;addition-of-two-number-completed-correctly",
@@ -15,27 +15,27 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 8,
+  "line": 12,
   "name": "I want perfrom mathematical operation with \"\u003cnumber1\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 9,
+  "line": 13,
   "name": "I want perfrom mathematical operation with \"\u003cnumber2\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 14,
   "name": "i perform addition",
   "keyword": "When "
 });
 formatter.step({
-  "line": 11,
+  "line": 15,
   "name": "addition result displayed correctly",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 13,
+  "line": 17,
   "name": "",
   "description": "",
   "id": "calculator-functional-test;addition-of-two-number-completed-correctly;",
@@ -45,7 +45,7 @@ formatter.examples({
         "number1",
         "number2"
       ],
-      "line": 14,
+      "line": 18,
       "id": "calculator-functional-test;addition-of-two-number-completed-correctly;;1"
     },
     {
@@ -53,7 +53,7 @@ formatter.examples({
         "32",
         "3"
       ],
-      "line": 15,
+      "line": 19,
       "id": "calculator-functional-test;addition-of-two-number-completed-correctly;;2"
     },
     {
@@ -61,7 +61,7 @@ formatter.examples({
         "2",
         "3"
       ],
-      "line": 16,
+      "line": 20,
       "id": "calculator-functional-test;addition-of-two-number-completed-correctly;;3"
     },
     {
@@ -69,21 +69,39 @@ formatter.examples({
         "0",
         "5"
       ],
-      "line": 17,
+      "line": 21,
       "id": "calculator-functional-test;addition-of-two-number-completed-correctly;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.background({
-  "line": 4,
+  "comments": [
+    {
+      "line": 4,
+      "value": "# There are 3 issues on the staging environment."
+    },
+    {
+      "line": 5,
+      "value": "#1. 5 is displaying as 6"
+    },
+    {
+      "line": 6,
+      "value": "#2. Multiplication functionality is not working as expected"
+    },
+    {
+      "line": 7,
+      "value": "#3. Operations with decimals is not working as expected"
+    }
+  ],
+  "line": 8,
   "name": "",
   "description": "",
   "type": "background",
   "keyword": "Background"
 });
 formatter.step({
-  "line": 5,
+  "line": 9,
   "name": "calculator app is up and running",
   "keyword": "Given "
 });
@@ -91,11 +109,11 @@ formatter.match({
   "location": "CalculatorSteps.calculator_app_is_up_and_running()"
 });
 formatter.result({
-  "duration": 3333723800,
+  "duration": 3508080500,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 15,
+  "line": 19,
   "name": "Addition of two number completed correctly",
   "description": "",
   "id": "calculator-functional-test;addition-of-two-number-completed-correctly;;2",
@@ -103,7 +121,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 8,
+  "line": 12,
   "name": "I want perfrom mathematical operation with \"32\"",
   "matchedColumns": [
     0
@@ -111,7 +129,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 9,
+  "line": 13,
   "name": "I want perfrom mathematical operation with \"3\"",
   "matchedColumns": [
     1
@@ -119,12 +137,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 14,
   "name": "i perform addition",
   "keyword": "When "
 });
 formatter.step({
-  "line": 11,
+  "line": 15,
   "name": "addition result displayed correctly",
   "keyword": "Then "
 });
@@ -138,7 +156,7 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 5092500,
+  "duration": 2222400,
   "status": "passed"
 });
 formatter.match({
@@ -151,32 +169,50 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 127600,
+  "duration": 54100,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.i_perform_addition()"
 });
 formatter.result({
-  "duration": 3792549700,
+  "duration": 3668856100,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.result_displayed_correctly()"
 });
 formatter.result({
-  "duration": 42351900,
+  "duration": 32533500,
   "status": "passed"
 });
 formatter.background({
-  "line": 4,
+  "comments": [
+    {
+      "line": 4,
+      "value": "# There are 3 issues on the staging environment."
+    },
+    {
+      "line": 5,
+      "value": "#1. 5 is displaying as 6"
+    },
+    {
+      "line": 6,
+      "value": "#2. Multiplication functionality is not working as expected"
+    },
+    {
+      "line": 7,
+      "value": "#3. Operations with decimals is not working as expected"
+    }
+  ],
+  "line": 8,
   "name": "",
   "description": "",
   "type": "background",
   "keyword": "Background"
 });
 formatter.step({
-  "line": 5,
+  "line": 9,
   "name": "calculator app is up and running",
   "keyword": "Given "
 });
@@ -184,11 +220,11 @@ formatter.match({
   "location": "CalculatorSteps.calculator_app_is_up_and_running()"
 });
 formatter.result({
-  "duration": 98542000,
+  "duration": 100167900,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 16,
+  "line": 20,
   "name": "Addition of two number completed correctly",
   "description": "",
   "id": "calculator-functional-test;addition-of-two-number-completed-correctly;;3",
@@ -196,7 +232,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 8,
+  "line": 12,
   "name": "I want perfrom mathematical operation with \"2\"",
   "matchedColumns": [
     0
@@ -204,7 +240,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 9,
+  "line": 13,
   "name": "I want perfrom mathematical operation with \"3\"",
   "matchedColumns": [
     1
@@ -212,12 +248,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 14,
   "name": "i perform addition",
   "keyword": "When "
 });
 formatter.step({
-  "line": 11,
+  "line": 15,
   "name": "addition result displayed correctly",
   "keyword": "Then "
 });
@@ -231,7 +267,7 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 100800,
+  "duration": 61400,
   "status": "passed"
 });
 formatter.match({
@@ -244,32 +280,50 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 71200,
+  "duration": 50000,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.i_perform_addition()"
 });
 formatter.result({
-  "duration": 2478521600,
+  "duration": 2534586400,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.result_displayed_correctly()"
 });
 formatter.result({
-  "duration": 26331200,
+  "duration": 17044000,
   "status": "passed"
 });
 formatter.background({
-  "line": 4,
+  "comments": [
+    {
+      "line": 4,
+      "value": "# There are 3 issues on the staging environment."
+    },
+    {
+      "line": 5,
+      "value": "#1. 5 is displaying as 6"
+    },
+    {
+      "line": 6,
+      "value": "#2. Multiplication functionality is not working as expected"
+    },
+    {
+      "line": 7,
+      "value": "#3. Operations with decimals is not working as expected"
+    }
+  ],
+  "line": 8,
   "name": "",
   "description": "",
   "type": "background",
   "keyword": "Background"
 });
 formatter.step({
-  "line": 5,
+  "line": 9,
   "name": "calculator app is up and running",
   "keyword": "Given "
 });
@@ -277,11 +331,11 @@ formatter.match({
   "location": "CalculatorSteps.calculator_app_is_up_and_running()"
 });
 formatter.result({
-  "duration": 97221500,
+  "duration": 122541700,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 17,
+  "line": 21,
   "name": "Addition of two number completed correctly",
   "description": "",
   "id": "calculator-functional-test;addition-of-two-number-completed-correctly;;4",
@@ -289,7 +343,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 8,
+  "line": 12,
   "name": "I want perfrom mathematical operation with \"0\"",
   "matchedColumns": [
     0
@@ -297,7 +351,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 9,
+  "line": 13,
   "name": "I want perfrom mathematical operation with \"5\"",
   "matchedColumns": [
     1
@@ -305,12 +359,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 14,
   "name": "i perform addition",
   "keyword": "When "
 });
 formatter.step({
-  "line": 11,
+  "line": 15,
   "name": "addition result displayed correctly",
   "keyword": "Then "
 });
@@ -324,7 +378,7 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 70100,
+  "duration": 95900,
   "status": "passed"
 });
 formatter.match({
@@ -337,25 +391,26 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 93100,
+  "duration": 70600,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.i_perform_addition()"
 });
 formatter.result({
-  "duration": 1521170100,
+  "duration": 1484419100,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.result_displayed_correctly()"
 });
 formatter.result({
-  "duration": 34119500,
-  "status": "passed"
+  "duration": 15476800,
+  "error_message": "java.lang.AssertionError: \nExpected: is \u003c5\u003e\n     but: was \u003c6\u003e\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\r\n\tat com.calculator.testSteps.CalculatorSteps.result_displayed_correctly(CalculatorSteps.java:81)\r\n\tat ✽.Then addition result displayed correctly(src/test/java/com/calculator/tests/calculatorTest.feature:15)\r\n",
+  "status": "failed"
 });
 formatter.scenarioOutline({
-  "line": 19,
+  "line": 23,
   "name": "substraction of two number completed correctly",
   "description": "",
   "id": "calculator-functional-test;substraction-of-two-number-completed-correctly",
@@ -363,32 +418,32 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 20,
+  "line": 24,
   "name": "I want perfrom mathematical operation with \"\u003cnumber1\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 21,
+  "line": 25,
   "name": "I want perfrom mathematical operation with \"\u003cnumber2\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 22,
+  "line": 26,
   "name": "I want perfrom mathematical operation with \"\u003cnumber3\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 23,
+  "line": 27,
   "name": "i perform substraction",
   "keyword": "When "
 });
 formatter.step({
-  "line": 24,
+  "line": 28,
   "name": "substraction result displayed correctly",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 26,
+  "line": 30,
   "name": "",
   "description": "",
   "id": "calculator-functional-test;substraction-of-two-number-completed-correctly;",
@@ -399,7 +454,7 @@ formatter.examples({
         "number2",
         "number3"
       ],
-      "line": 27,
+      "line": 31,
       "id": "calculator-functional-test;substraction-of-two-number-completed-correctly;;1"
     },
     {
@@ -408,7 +463,7 @@ formatter.examples({
         "3",
         "23"
       ],
-      "line": 28,
+      "line": 32,
       "id": "calculator-functional-test;substraction-of-two-number-completed-correctly;;2"
     },
     {
@@ -417,21 +472,39 @@ formatter.examples({
         "3",
         "34"
       ],
-      "line": 29,
+      "line": 33,
       "id": "calculator-functional-test;substraction-of-two-number-completed-correctly;;3"
     }
   ],
   "keyword": "Examples"
 });
 formatter.background({
-  "line": 4,
+  "comments": [
+    {
+      "line": 4,
+      "value": "# There are 3 issues on the staging environment."
+    },
+    {
+      "line": 5,
+      "value": "#1. 5 is displaying as 6"
+    },
+    {
+      "line": 6,
+      "value": "#2. Multiplication functionality is not working as expected"
+    },
+    {
+      "line": 7,
+      "value": "#3. Operations with decimals is not working as expected"
+    }
+  ],
+  "line": 8,
   "name": "",
   "description": "",
   "type": "background",
   "keyword": "Background"
 });
 formatter.step({
-  "line": 5,
+  "line": 9,
   "name": "calculator app is up and running",
   "keyword": "Given "
 });
@@ -439,11 +512,11 @@ formatter.match({
   "location": "CalculatorSteps.calculator_app_is_up_and_running()"
 });
 formatter.result({
-  "duration": 124506000,
+  "duration": 88876900,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 28,
+  "line": 32,
   "name": "substraction of two number completed correctly",
   "description": "",
   "id": "calculator-functional-test;substraction-of-two-number-completed-correctly;;2",
@@ -451,7 +524,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 20,
+  "line": 24,
   "name": "I want perfrom mathematical operation with \"2\"",
   "matchedColumns": [
     0
@@ -459,7 +532,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 21,
+  "line": 25,
   "name": "I want perfrom mathematical operation with \"3\"",
   "matchedColumns": [
     1
@@ -467,7 +540,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 22,
+  "line": 26,
   "name": "I want perfrom mathematical operation with \"23\"",
   "matchedColumns": [
     2
@@ -475,12 +548,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 23,
+  "line": 27,
   "name": "i perform substraction",
   "keyword": "When "
 });
 formatter.step({
-  "line": 24,
+  "line": 28,
   "name": "substraction result displayed correctly",
   "keyword": "Then "
 });
@@ -494,7 +567,7 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 71200,
+  "duration": 35900,
   "status": "passed"
 });
 formatter.match({
@@ -507,7 +580,7 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 68500,
+  "duration": 33000,
   "status": "passed"
 });
 formatter.match({
@@ -520,32 +593,50 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 42700,
+  "duration": 33900,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.i_perform_substraction()"
 });
 formatter.result({
-  "duration": 4853000200,
+  "duration": 4873311400,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.substraction_result_displayed_correctly()"
 });
 formatter.result({
-  "duration": 36039500,
+  "duration": 22806300,
   "status": "passed"
 });
 formatter.background({
-  "line": 4,
+  "comments": [
+    {
+      "line": 4,
+      "value": "# There are 3 issues on the staging environment."
+    },
+    {
+      "line": 5,
+      "value": "#1. 5 is displaying as 6"
+    },
+    {
+      "line": 6,
+      "value": "#2. Multiplication functionality is not working as expected"
+    },
+    {
+      "line": 7,
+      "value": "#3. Operations with decimals is not working as expected"
+    }
+  ],
+  "line": 8,
   "name": "",
   "description": "",
   "type": "background",
   "keyword": "Background"
 });
 formatter.step({
-  "line": 5,
+  "line": 9,
   "name": "calculator app is up and running",
   "keyword": "Given "
 });
@@ -553,11 +644,11 @@ formatter.match({
   "location": "CalculatorSteps.calculator_app_is_up_and_running()"
 });
 formatter.result({
-  "duration": 114078300,
+  "duration": 121609700,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 29,
+  "line": 33,
   "name": "substraction of two number completed correctly",
   "description": "",
   "id": "calculator-functional-test;substraction-of-two-number-completed-correctly;;3",
@@ -565,7 +656,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 20,
+  "line": 24,
   "name": "I want perfrom mathematical operation with \"2\"",
   "matchedColumns": [
     0
@@ -573,7 +664,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 21,
+  "line": 25,
   "name": "I want perfrom mathematical operation with \"3\"",
   "matchedColumns": [
     1
@@ -581,7 +672,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 22,
+  "line": 26,
   "name": "I want perfrom mathematical operation with \"34\"",
   "matchedColumns": [
     2
@@ -589,12 +680,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 23,
+  "line": 27,
   "name": "i perform substraction",
   "keyword": "When "
 });
 formatter.step({
-  "line": 24,
+  "line": 28,
   "name": "substraction result displayed correctly",
   "keyword": "Then "
 });
@@ -608,7 +699,7 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 40000,
+  "duration": 50300,
   "status": "passed"
 });
 formatter.match({
@@ -621,7 +712,7 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 65400,
+  "duration": 64700,
   "status": "passed"
 });
 formatter.match({
@@ -634,25 +725,25 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 78200,
+  "duration": 33100,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.i_perform_substraction()"
 });
 formatter.result({
-  "duration": 4819091700,
+  "duration": 4880423500,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.substraction_result_displayed_correctly()"
 });
 formatter.result({
-  "duration": 31026700,
+  "duration": 19082600,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 31,
+  "line": 35,
   "name": "multiplication of two number completed correctly",
   "description": "",
   "id": "calculator-functional-test;multiplication-of-two-number-completed-correctly",
@@ -660,27 +751,27 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 32,
+  "line": 36,
   "name": "I want perfrom mathematical operation with \"\u003cnumber1\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 33,
+  "line": 37,
   "name": "I want perfrom mathematical operation with \"\u003cnumber2\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 34,
+  "line": 38,
   "name": "i perform multiplication",
   "keyword": "When "
 });
 formatter.step({
-  "line": 35,
+  "line": 39,
   "name": "multiplication result displayed correctly",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 37,
+  "line": 41,
   "name": "",
   "description": "",
   "id": "calculator-functional-test;multiplication-of-two-number-completed-correctly;",
@@ -690,7 +781,7 @@ formatter.examples({
         "number1",
         "number2"
       ],
-      "line": 38,
+      "line": 42,
       "id": "calculator-functional-test;multiplication-of-two-number-completed-correctly;;1"
     },
     {
@@ -698,7 +789,7 @@ formatter.examples({
         "2",
         "3"
       ],
-      "line": 39,
+      "line": 43,
       "id": "calculator-functional-test;multiplication-of-two-number-completed-correctly;;2"
     },
     {
@@ -706,21 +797,39 @@ formatter.examples({
         "4",
         "5"
       ],
-      "line": 40,
+      "line": 44,
       "id": "calculator-functional-test;multiplication-of-two-number-completed-correctly;;3"
     }
   ],
   "keyword": "Examples"
 });
 formatter.background({
-  "line": 4,
+  "comments": [
+    {
+      "line": 4,
+      "value": "# There are 3 issues on the staging environment."
+    },
+    {
+      "line": 5,
+      "value": "#1. 5 is displaying as 6"
+    },
+    {
+      "line": 6,
+      "value": "#2. Multiplication functionality is not working as expected"
+    },
+    {
+      "line": 7,
+      "value": "#3. Operations with decimals is not working as expected"
+    }
+  ],
+  "line": 8,
   "name": "",
   "description": "",
   "type": "background",
   "keyword": "Background"
 });
 formatter.step({
-  "line": 5,
+  "line": 9,
   "name": "calculator app is up and running",
   "keyword": "Given "
 });
@@ -728,11 +837,11 @@ formatter.match({
   "location": "CalculatorSteps.calculator_app_is_up_and_running()"
 });
 formatter.result({
-  "duration": 118057500,
+  "duration": 119687500,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 39,
+  "line": 43,
   "name": "multiplication of two number completed correctly",
   "description": "",
   "id": "calculator-functional-test;multiplication-of-two-number-completed-correctly;;2",
@@ -740,7 +849,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 32,
+  "line": 36,
   "name": "I want perfrom mathematical operation with \"2\"",
   "matchedColumns": [
     0
@@ -748,7 +857,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 33,
+  "line": 37,
   "name": "I want perfrom mathematical operation with \"3\"",
   "matchedColumns": [
     1
@@ -756,12 +865,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 34,
+  "line": 38,
   "name": "i perform multiplication",
   "keyword": "When "
 });
 formatter.step({
-  "line": 35,
+  "line": 39,
   "name": "multiplication result displayed correctly",
   "keyword": "Then "
 });
@@ -775,7 +884,7 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 60600,
+  "duration": 34900,
   "status": "passed"
 });
 formatter.match({
@@ -788,32 +897,51 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 43700,
+  "duration": 35500,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.i_perform_multiplication()"
 });
 formatter.result({
-  "duration": 2562550800,
+  "duration": 2611659300,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.multiplication_result_displayed_correctly()"
 });
 formatter.result({
-  "duration": 17266500,
-  "status": "passed"
+  "duration": 35186300,
+  "error_message": "java.lang.AssertionError: \nExpected: is \u003c6\u003e\n     but: was \u003c8\u003e\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\r\n\tat com.calculator.testSteps.CalculatorSteps.multiplication_result_displayed_correctly(CalculatorSteps.java:102)\r\n\tat ✽.Then multiplication result displayed correctly(src/test/java/com/calculator/tests/calculatorTest.feature:39)\r\n",
+  "status": "failed"
 });
 formatter.background({
-  "line": 4,
+  "comments": [
+    {
+      "line": 4,
+      "value": "# There are 3 issues on the staging environment."
+    },
+    {
+      "line": 5,
+      "value": "#1. 5 is displaying as 6"
+    },
+    {
+      "line": 6,
+      "value": "#2. Multiplication functionality is not working as expected"
+    },
+    {
+      "line": 7,
+      "value": "#3. Operations with decimals is not working as expected"
+    }
+  ],
+  "line": 8,
   "name": "",
   "description": "",
   "type": "background",
   "keyword": "Background"
 });
 formatter.step({
-  "line": 5,
+  "line": 9,
   "name": "calculator app is up and running",
   "keyword": "Given "
 });
@@ -821,11 +949,11 @@ formatter.match({
   "location": "CalculatorSteps.calculator_app_is_up_and_running()"
 });
 formatter.result({
-  "duration": 118468700,
+  "duration": 129873600,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 40,
+  "line": 44,
   "name": "multiplication of two number completed correctly",
   "description": "",
   "id": "calculator-functional-test;multiplication-of-two-number-completed-correctly;;3",
@@ -833,7 +961,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 32,
+  "line": 36,
   "name": "I want perfrom mathematical operation with \"4\"",
   "matchedColumns": [
     0
@@ -841,7 +969,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 33,
+  "line": 37,
   "name": "I want perfrom mathematical operation with \"5\"",
   "matchedColumns": [
     1
@@ -849,12 +977,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 34,
+  "line": 38,
   "name": "i perform multiplication",
   "keyword": "When "
 });
 formatter.step({
-  "line": 35,
+  "line": 39,
   "name": "multiplication result displayed correctly",
   "keyword": "Then "
 });
@@ -868,7 +996,7 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 51100,
+  "duration": 94100,
   "status": "passed"
 });
 formatter.match({
@@ -881,25 +1009,26 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 532200,
+  "duration": 415400,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.i_perform_multiplication()"
 });
 formatter.result({
-  "duration": 2463833800,
+  "duration": 2558549800,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.multiplication_result_displayed_correctly()"
 });
 formatter.result({
-  "duration": 21755600,
-  "status": "passed"
+  "duration": 32844200,
+  "error_message": "java.lang.AssertionError: \nExpected: is \u003c20\u003e\n     but: was \u003c26\u003e\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\r\n\tat com.calculator.testSteps.CalculatorSteps.multiplication_result_displayed_correctly(CalculatorSteps.java:102)\r\n\tat ✽.Then multiplication result displayed correctly(src/test/java/com/calculator/tests/calculatorTest.feature:39)\r\n",
+  "status": "failed"
 });
 formatter.scenarioOutline({
-  "line": 42,
+  "line": 46,
   "name": "division of two number completed correctly",
   "description": "",
   "id": "calculator-functional-test;division-of-two-number-completed-correctly",
@@ -907,27 +1036,27 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 43,
+  "line": 47,
   "name": "I want perfrom mathematical operation with \"\u003cnumber1\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 44,
+  "line": 48,
   "name": "I want perfrom mathematical operation with \"\u003cnumber2\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 45,
+  "line": 49,
   "name": "i perform division",
   "keyword": "When "
 });
 formatter.step({
-  "line": 46,
+  "line": 50,
   "name": "division result displayed correctly",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 48,
+  "line": 52,
   "name": "",
   "description": "",
   "id": "calculator-functional-test;division-of-two-number-completed-correctly;",
@@ -937,7 +1066,7 @@ formatter.examples({
         "number1",
         "number2"
       ],
-      "line": 49,
+      "line": 53,
       "id": "calculator-functional-test;division-of-two-number-completed-correctly;;1"
     },
     {
@@ -945,7 +1074,7 @@ formatter.examples({
         "6",
         "3"
       ],
-      "line": 50,
+      "line": 54,
       "id": "calculator-functional-test;division-of-two-number-completed-correctly;;2"
     },
     {
@@ -953,21 +1082,39 @@ formatter.examples({
         "7",
         "3"
       ],
-      "line": 51,
+      "line": 55,
       "id": "calculator-functional-test;division-of-two-number-completed-correctly;;3"
     }
   ],
   "keyword": "Examples"
 });
 formatter.background({
-  "line": 4,
+  "comments": [
+    {
+      "line": 4,
+      "value": "# There are 3 issues on the staging environment."
+    },
+    {
+      "line": 5,
+      "value": "#1. 5 is displaying as 6"
+    },
+    {
+      "line": 6,
+      "value": "#2. Multiplication functionality is not working as expected"
+    },
+    {
+      "line": 7,
+      "value": "#3. Operations with decimals is not working as expected"
+    }
+  ],
+  "line": 8,
   "name": "",
   "description": "",
   "type": "background",
   "keyword": "Background"
 });
 formatter.step({
-  "line": 5,
+  "line": 9,
   "name": "calculator app is up and running",
   "keyword": "Given "
 });
@@ -975,11 +1122,11 @@ formatter.match({
   "location": "CalculatorSteps.calculator_app_is_up_and_running()"
 });
 formatter.result({
-  "duration": 92215000,
+  "duration": 114503400,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 50,
+  "line": 54,
   "name": "division of two number completed correctly",
   "description": "",
   "id": "calculator-functional-test;division-of-two-number-completed-correctly;;2",
@@ -987,7 +1134,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 43,
+  "line": 47,
   "name": "I want perfrom mathematical operation with \"6\"",
   "matchedColumns": [
     0
@@ -995,7 +1142,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 44,
+  "line": 48,
   "name": "I want perfrom mathematical operation with \"3\"",
   "matchedColumns": [
     1
@@ -1003,12 +1150,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 45,
+  "line": 49,
   "name": "i perform division",
   "keyword": "When "
 });
 formatter.step({
-  "line": 46,
+  "line": 50,
   "name": "division result displayed correctly",
   "keyword": "Then "
 });
@@ -1022,7 +1169,7 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 148400,
+  "duration": 62500,
   "status": "passed"
 });
 formatter.match({
@@ -1035,32 +1182,50 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 43000,
+  "duration": 94400,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.i_perform_division()"
 });
 formatter.result({
-  "duration": 2542804600,
+  "duration": 2627653200,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.division_result_displayed_correctly()"
 });
 formatter.result({
-  "duration": 20472800,
+  "duration": 11528300,
   "status": "passed"
 });
 formatter.background({
-  "line": 4,
+  "comments": [
+    {
+      "line": 4,
+      "value": "# There are 3 issues on the staging environment."
+    },
+    {
+      "line": 5,
+      "value": "#1. 5 is displaying as 6"
+    },
+    {
+      "line": 6,
+      "value": "#2. Multiplication functionality is not working as expected"
+    },
+    {
+      "line": 7,
+      "value": "#3. Operations with decimals is not working as expected"
+    }
+  ],
+  "line": 8,
   "name": "",
   "description": "",
   "type": "background",
   "keyword": "Background"
 });
 formatter.step({
-  "line": 5,
+  "line": 9,
   "name": "calculator app is up and running",
   "keyword": "Given "
 });
@@ -1068,11 +1233,11 @@ formatter.match({
   "location": "CalculatorSteps.calculator_app_is_up_and_running()"
 });
 formatter.result({
-  "duration": 136887400,
+  "duration": 113248000,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 51,
+  "line": 55,
   "name": "division of two number completed correctly",
   "description": "",
   "id": "calculator-functional-test;division-of-two-number-completed-correctly;;3",
@@ -1080,7 +1245,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 43,
+  "line": 47,
   "name": "I want perfrom mathematical operation with \"7\"",
   "matchedColumns": [
     0
@@ -1088,7 +1253,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 44,
+  "line": 48,
   "name": "I want perfrom mathematical operation with \"3\"",
   "matchedColumns": [
     1
@@ -1096,12 +1261,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 45,
+  "line": 49,
   "name": "i perform division",
   "keyword": "When "
 });
 formatter.step({
-  "line": 46,
+  "line": 50,
   "name": "division result displayed correctly",
   "keyword": "Then "
 });
@@ -1115,7 +1280,7 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 122800,
+  "duration": 33200,
   "status": "passed"
 });
 formatter.match({
@@ -1128,26 +1293,26 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 55800,
+  "duration": 31000,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.i_perform_division()"
 });
 formatter.result({
-  "duration": 2598899000,
+  "duration": 2619308800,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.division_result_displayed_correctly()"
 });
 formatter.result({
-  "duration": 34483600,
-  "error_message": "java.lang.AssertionError: \nExpected: is \u003c2.3333333333333335\u003e\n     but: was \u003c2.33333333\u003e\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\r\n\tat com.calculator.testSteps.CalculatorSteps.division_result_displayed_correctly(CalculatorSteps.java:110)\r\n\tat ✽.Then division result displayed correctly(src/test/java/com/calculator/tests/calculatorTest.feature:46)\r\n",
+  "duration": 26237400,
+  "error_message": "java.lang.AssertionError: \nExpected: is \u003c2.3333333333333335\u003e\n     but: was \u003c2.0\u003e\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\r\n\tat com.calculator.testSteps.CalculatorSteps.division_result_displayed_correctly(CalculatorSteps.java:110)\r\n\tat ✽.Then division result displayed correctly(src/test/java/com/calculator/tests/calculatorTest.feature:50)\r\n",
   "status": "failed"
 });
 formatter.scenarioOutline({
-  "line": 53,
+  "line": 57,
   "name": "division of number By zero",
   "description": "",
   "id": "calculator-functional-test;division-of-number-by-zero",
@@ -1155,27 +1320,27 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 54,
+  "line": 58,
   "name": "I want perfrom mathematical operation with \"\u003cnumber1\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 55,
+  "line": 59,
   "name": "I want perfrom mathematical operation with \"\u003cnumber2\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 56,
+  "line": 60,
   "name": "i perform division",
   "keyword": "When "
 });
 formatter.step({
-  "line": 57,
+  "line": 61,
   "name": "verify \"Error\" displayed",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 59,
+  "line": 63,
   "name": "",
   "description": "",
   "id": "calculator-functional-test;division-of-number-by-zero;",
@@ -1185,7 +1350,7 @@ formatter.examples({
         "number1",
         "number2"
       ],
-      "line": 60,
+      "line": 64,
       "id": "calculator-functional-test;division-of-number-by-zero;;1"
     },
     {
@@ -1193,21 +1358,39 @@ formatter.examples({
         "4",
         "0"
       ],
-      "line": 61,
+      "line": 65,
       "id": "calculator-functional-test;division-of-number-by-zero;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.background({
-  "line": 4,
+  "comments": [
+    {
+      "line": 4,
+      "value": "# There are 3 issues on the staging environment."
+    },
+    {
+      "line": 5,
+      "value": "#1. 5 is displaying as 6"
+    },
+    {
+      "line": 6,
+      "value": "#2. Multiplication functionality is not working as expected"
+    },
+    {
+      "line": 7,
+      "value": "#3. Operations with decimals is not working as expected"
+    }
+  ],
+  "line": 8,
   "name": "",
   "description": "",
   "type": "background",
   "keyword": "Background"
 });
 formatter.step({
-  "line": 5,
+  "line": 9,
   "name": "calculator app is up and running",
   "keyword": "Given "
 });
@@ -1215,11 +1398,11 @@ formatter.match({
   "location": "CalculatorSteps.calculator_app_is_up_and_running()"
 });
 formatter.result({
-  "duration": 110349600,
+  "duration": 96017300,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 61,
+  "line": 65,
   "name": "division of number By zero",
   "description": "",
   "id": "calculator-functional-test;division-of-number-by-zero;;2",
@@ -1227,7 +1410,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 54,
+  "line": 58,
   "name": "I want perfrom mathematical operation with \"4\"",
   "matchedColumns": [
     0
@@ -1235,7 +1418,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 55,
+  "line": 59,
   "name": "I want perfrom mathematical operation with \"0\"",
   "matchedColumns": [
     1
@@ -1243,12 +1426,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 56,
+  "line": 60,
   "name": "i perform division",
   "keyword": "When "
 });
 formatter.step({
-  "line": 57,
+  "line": 61,
   "name": "verify \"Error\" displayed",
   "keyword": "Then "
 });
@@ -1262,7 +1445,7 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 43800,
+  "duration": 63700,
   "status": "passed"
 });
 formatter.match({
@@ -1275,14 +1458,14 @@ formatter.match({
   "location": "CalculatorSteps.i_want_perfrom_addition_with(String)"
 });
 formatter.result({
-  "duration": 36700,
+  "duration": 47700,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatorSteps.i_perform_division()"
 });
 formatter.result({
-  "duration": 1563368000,
+  "duration": 1556842700,
   "status": "passed"
 });
 formatter.match({
@@ -1295,7 +1478,7 @@ formatter.match({
   "location": "CalculatorSteps.verify_displayed(String)"
 });
 formatter.result({
-  "duration": 21562400,
+  "duration": 34521400,
   "status": "passed"
 });
 });

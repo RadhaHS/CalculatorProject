@@ -1,16 +1,52 @@
 -------------------------------------------------------------------------------
 Test set: com.calculator.runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 62, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 35.859 s <<< FAILURE! - in com.calculator.runner.TestRunner
-Then division result displayed correctly(| 7 | 3 |)  Time elapsed: 0.006 s  <<< FAILURE!
+Tests run: 62, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 35.824 s <<< FAILURE! - in com.calculator.runner.TestRunner
+Then addition result displayed correctly(| 0 | 5 |)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is <5>
+     but: was <6>
+
+| 0 | 5 |  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is <5>
+     but: was <6>
+
+Then multiplication result displayed correctly(| 2 | 3 |)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is <6>
+     but: was <8>
+
+| 2 | 3 |  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is <6>
+     but: was <8>
+
+Then multiplication result displayed correctly(| 4 | 5 |)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is <20>
+     but: was <26>
+
+| 4 | 5 |  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is <20>
+     but: was <26>
+
+Then division result displayed correctly(| 7 | 3 |)  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: 
 
 Expected: is <2.3333333333333335>
-     but: was <2.33333333>
+     but: was <2.0>
 
-| 7 | 3 |  Time elapsed: 0.006 s  <<< FAILURE!
+| 7 | 3 |  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: 
 
 Expected: is <2.3333333333333335>
-     but: was <2.33333333>
+     but: was <2.0>
 
